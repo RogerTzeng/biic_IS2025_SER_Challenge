@@ -34,27 +34,27 @@ Train emotion recognition models separately for speech and text:
 
 - Attribute Prediction
 
-    - Speech: train_eval_files/train_dim_ser.py
+    - Speech: `train_eval_files/train_dim_ser.py`
 
-    - Text: train_eval_files/train_dim_ser_text.py
+    - Text: `train_eval_files/train_dim_ser_text.py`
 
 - Categorical Prediction
 
-    - Speech: train_eval_files/train_cat_ser.py
+    - Speech: `train_eval_files/train_cat_ser.py`
 
-    - Text: train_eval_files/train_cat_ser_text.py
+    - Text: `train_eval_files/train_cat_ser_text.py`
 
 ### 5. Extract Features
 
-Use the scripts in the feature_extractor/ directory to extract learned representations from trained unimodal models.
+Use the scripts in the `feature_extractor/` directory to extract learned representations from trained unimodal models.
 
 ### 6. Train Multimodal Models
 
 Train with both audio and text features:
 
-- Attribute Prediction: train_eval_files/train_dim_multi.py
+- Attribute Prediction: `train_eval_files/train_dim_multi.py`
 
-- Categorical Prediction: train_eval_files/train_cat_multi.py
+- Categorical Prediction: `train_eval_files/train_cat_multi.py`
 
 ## 📄 Citation
 If you find this work useful in your research, please cite our paper:

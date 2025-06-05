@@ -16,7 +16,7 @@ We propose and evaluate practical strategies to improve Speech Emotion Recogniti
 
 ### 1. Install Dependencies
 
-`pip install -r requirement.txt`
+`pip install -r requirements.txt`
 
 ### 2. Download Dataset
 
